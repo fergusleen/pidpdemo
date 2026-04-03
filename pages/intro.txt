@@ -1,0 +1,39 @@
+PiDP-11 Demonstration System
+
+Welcome.  This is a working PDP-11 style Unix system, not a mock-up.
+Machines like this helped launch modern computing, and the ideas are
+still with us.  Ken Thompson and Dennis Ritchie would recognize the
+command line.  Bill Joy would recognize the BSD side of the house.
+
+What makes that exciting is not nostalgia alone.  In a few keystrokes
+you can move from a museum story to a living system: read about DEC,
+Unix, and 2.11BSD, inspect the machine, list files, run small process
+tests, and drop into a classic game.
+
+That combination is the real appeal of a system like this.  It is easy
+to speak of computing history as if it were sealed behind museum glass.
+Unix on a PDP-11 reminds you that history was once daily work.  People
+sat at terminals, wrote code, fixed bugs, sent mail, played games, and
+built habits that still shape modern software development.
+
+It is also a surprisingly approachable machine.  The commands are
+compact.  The operating system is not buried under layers of hidden
+machinery.  You can feel the limits, but you can also feel the design:
+make each program do one useful thing, keep text readable, and let the
+user combine simple tools into something larger.
+
+There is another pleasure here as well: the names behind the machine
+are not abstractions.  Thompson, Ritchie, Joy, Bell, Supnik, and
+Vermeulen each represent a different layer of the story.  Some built
+the original system, some preserved it, and some made it tangible for
+today's audience.  The result is not just a history lesson.  It is a
+working chain of ideas and craft across decades.
+
+Take a minute and explore.  The menu is meant to be welcoming, quick,
+and safe for demonstrations, but the operating system underneath is
+real.  This is a chance to see where many familiar ideas first became
+practical, elegant, and fun.
+
+If a visitor leaves wanting to know a little more about DEC, Bell Labs,
+Berkeley, or why a fifty-year-old command line still feels fresh, then
+the machine has done its job.

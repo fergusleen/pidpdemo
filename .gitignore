@@ -1,0 +1,6 @@
+pidpdemo
+src/*.o
+logs/*.log
+logs/upload-remote.sh
+logs/push-chunks.*
+scripts/local-config.sh

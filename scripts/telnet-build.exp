@@ -1,0 +1,66 @@
+#!/usr/bin/env expect
+
+set timeout 600
+
+set host $env(TARGET_HOST)
+set port $env(TARGET_PORT)
+set user $env(TARGET_USER)
+set project_dir $env(TARGET_PROJECT_DIR)
+set prompt $env(TARGET_PROMPT)
+set sh_prompt $env(TARGET_SH_PROMPT)
+set telnet_cmd $env(TELNET_CMD)
+set build_cmd $env(BUILD_CMD)
+set log_file $env(LOG_FILE)
+
+log_file -a $log_file
+
+spawn $telnet_cmd $host $port
+expect {
+    -re "(?i)login: $" {}
+    timeout { send_user "No login prompt seen.\n"; exit 1 }
+    eof { send_user "Connection closed before login.\n"; exit 1 }
+}
+send -- "$user\r"
+expect {
+    -re $prompt {}
+    timeout { send_user "Shell prompt not seen after login.\n"; exit 1 }
+    eof { send_user "Connection closed after login.\n"; exit 1 }
+}
+
+send -- "sh\r"
+expect {
+    -re $sh_prompt {}
+    timeout { send_user "Plain sh prompt not seen after starting sh.\n"; exit 1 }
+    eof { send_user "Connection closed before entering sh.\n"; exit 1 }
+}
+
+send -- "cd $project_dir || exit 1\r"
+expect {
+    -re $sh_prompt {}
+    timeout { send_user "Could not change directory to $project_dir.\n"; exit 1 }
+    eof { send_user "Connection closed before build.\n"; exit 1 }
+}
+
+send -- "$build_cmd\r"
+expect {
+    -re $sh_prompt {}
+    timeout { send_user "Build command did not return to the shell prompt.\n"; exit 1 }
+    eof { send_user "Connection closed during build.\n"; exit 1 }
+}
+
+send -- "ls -l pidpdemo\r"
+expect {
+    -re $sh_prompt {}
+    timeout { send_user "Binary check did not return to the shell prompt.\n"; exit 1 }
+    eof { send_user "Connection closed during binary check.\n"; exit 1 }
+}
+
+send -- "exit\r"
+expect {
+    -re $prompt {}
+    timeout { send_user "Did not return to the login shell after leaving sh.\n"; exit 1 }
+    eof { send_user "Connection closed before returning to the login shell.\n"; exit 1 }
+}
+
+send -- "exit\r"
+expect eof

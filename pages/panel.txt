@@ -1,0 +1,41 @@
+PiDP-11 Front Panel Notes
+
+The PiDP-11 reproduces the look and basic behaviour of a classic DEC
+front panel.  Its switches and lamps give a visible connection to the
+state of the simulated machine.
+
+The modern PiDP-11 kit was created by Oscar Vermeulen, whose work gave
+today's enthusiasts a practical and handsome way to experience a
+PDP-11 style system on a desk rather than in a machine room.
+
+The simulator beneath many modern recreations is SIMH, associated above
+all with Bob Supnik and later contributors.  That partnership matters:
+Supnik's emulator preserves the behaviour of the machine, while
+Vermeulen's front panel recreation restores something of its physical
+presence.  Together they make the experience both credible and vivid.
+
+In ordinary Unix use, the front panel is mostly interpretive rather
+than essential.  The operating system is normally controlled from the
+terminal.  Still, the panel provides a valuable sense of scale and of
+how closely software once sat to the machine.
+
+That physical relationship is worth noticing.  On modern systems, the
+machine itself is usually hidden inside a featureless box.  Here the
+state of the computer is dramatized: addresses, data paths, run state,
+and control all have lamps or switches attached to them.  Even when the
+panel is symbolic rather than strictly necessary, it teaches by making
+the invisible visible.
+
+For demonstrations, it helps to point out:
+
+- the address and data lights
+- the run and halt controls
+- the difference between the console panel and the Unix login session
+
+The panel makes the system legible in a way that modern hardware
+usually does not.
+
+It also gives visitors an immediate emotional hook.  A terminal window
+is familiar.  A living front panel full of lamps invites questions.
+That curiosity is useful, because it opens the door to explaining what
+the operating system is doing and why machines of this era still matter.

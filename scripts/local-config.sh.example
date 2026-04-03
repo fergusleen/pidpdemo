@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# Copy this file to scripts/local-config.sh and edit it for your own
+# PiDP-11 or 2.11BSD installation.  scripts/local-config.sh is ignored
+# by git so site-local settings do not end up in the repository.
+
+TARGET_HOST=192.168.1.135
+TARGET_PORT=2323
+TARGET_USER=user
+TARGET_DIR=tsuite
+TARGET_PROJECT=pidpdemo
+TARGET_PROMPT='user\[[0-9]+\] '
+TARGET_SH_PROMPT='[\$#] $'
+TELNET_CMD=telnet

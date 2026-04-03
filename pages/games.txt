@@ -1,0 +1,33 @@
+Games On This System
+
+The games directory is a small time capsule of classic Unix fun.
+If you want a quick demonstration, these are the best bets.
+
+Adventure
+  The original great text adventure.  Slow down, read closely, and
+  explore.  It remains one of the clearest examples of how powerful
+  plain text and a good imagination can be.
+
+Zork
+  A richer commercial-era descendant of the adventure tradition, with
+  sharper writing, a larger world, and a stronger sense of voice.
+
+Rogue-style play
+  `hack` is the standout here: dungeon exploration, monsters, loot,
+  and permanent consequences.  It points toward an entire later genre.
+
+Robots
+  Fast, simple, and excellent for a short terminal demo.  It shows how
+  little a game needs, if the underlying idea is good.
+
+Trek
+  A command-line Star Trek strategy game and a fine example of early
+  computing culture meeting science fiction fandom.  It can also be
+  launched directly from this menu for a quick demonstration.
+
+Wump, chess, backgammon, boggle, hangman, banner, and quiz are also
+present if you want something brief, familiar, or easy to explain.
+
+Taken together, these games show that old Unix systems were never only
+for work.  They were social machines, teaching machines, and playful
+machines too.

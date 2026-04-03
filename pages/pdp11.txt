@@ -1,0 +1,41 @@
+About the PDP-11
+
+The PDP-11 family, introduced by Digital Equipment Corporation in
+1970, was one of the most influential minicomputer lines of its era.
+
+This installation is aimed at a PDP-11/70, the top end of the Unibus
+PDP-11 range.  Introduced in 1975, the 11/70 added cache memory and
+22-bit physical addressing, letting serious Unix systems stretch into
+the multi-megabyte range that seemed substantial at the time.
+
+Engineers at DEC, including C. Gordon Bell and the teams around him,
+helped shape a machine that was compact, elegant, and practical.  Its
+instruction set used a small number of general registers plus flexible
+addressing modes, which made the system attractive to both compiler
+writers and operating system programmers.
+
+That architecture matters because it was pleasant to think with.  The
+PDP-11 instruction set was not merely powerful enough; it was tidy.
+Students could learn it, assembly programmers could enjoy it, and C
+compilers could target it well.  Much of the reputation of early Unix
+for economy and clarity is tied to how well the software matched the
+hardware beneath it.
+
+Many important Unix systems were developed on PDP-11 hardware.  The
+machine's size, cost, and practical performance helped Ken Thompson
+and Dennis Ritchie turn Unix into a working laboratory system rather
+than a purely academic one.
+
+The 11/70 in particular carried a sense of seriousness.  It was not a
+toy and not a personal machine in the later microcomputer sense.  It
+was the sort of computer an institution could rely on for multi-user
+work, instrument control, shared development, and day-to-day technical
+computing.
+
+By modern standards the hardware is small.  By historical standards it
+was a serious computer: strong enough for multi-user work, compilers,
+networking, laboratory control, and long-lived operating system ideas.
+
+Part of the fascination today is that the scale is now human again.
+You can still understand the machine as a whole, yet it is rich enough
+to show why the PDP-11 became one of the defining computers of its age.

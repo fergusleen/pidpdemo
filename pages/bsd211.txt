@@ -1,0 +1,33 @@
+About 2.11BSD
+
+2.11BSD is a late Berkeley Software Distribution for the PDP-11.
+It brought a mature Unix environment to machines with a very small
+address space by modern standards.
+
+Berkeley figures such as Bill Joy, Marshall Kirk McKusick, and others
+helped define the BSD tradition, while later PDP-11 work by Steven
+Schultz and contributors kept that line alive on smaller hardware.
+Running such a system requires care.  Memory is tight, tools are older,
+and conveniences taken for granted on newer systems may not be present.
+
+Even so, 2.11BSD is a capable environment.  It supports multi-user
+operation, development tools, networking in suitable configurations,
+and a broad collection of familiar Unix utilities.
+
+That is part of the charm of 2.11BSD.  It feels constrained, but not
+crippled.  You are constantly reminded that every process, every block,
+and every address space matters, yet the system still offers a broad
+and coherent Unix environment.  The result is disciplined rather than
+merely primitive.
+
+For many people, 2.11BSD is also an unusually readable operating system.
+The scale is small enough that the relationship between hardware,
+kernel, utilities, and user habits becomes easier to see.  The machine
+does not disappear beneath abstraction; it stays visible.
+
+For a PiDP-11 installation, it offers a historically grounded and
+pleasantly comprehensible Unix system.
+
+That makes it a good demonstration platform.  Visitors can see not only
+what Unix looked like, but how capable it already was when measured by
+clarity, portability, and the persistence of its ideas.

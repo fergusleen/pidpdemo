@@ -1,0 +1,32 @@
+About UNIX
+
+Unix began at Bell Labs in the early 1970s.  It was designed around a
+few strong ideas: small programs, text streams, simple interfaces, and
+composition by shell and tools.
+
+Ken Thompson and Dennis Ritchie gave Unix its basic shape, and Brian
+Kernighan helped explain that style to the rest of the world.  Even on
+a machine with limited memory and storage, Unix encouraged clear,
+practical work: edit text, assemble pipelines, run compilers, inspect
+processes, and build reusable tools from small parts.
+
+That way of thinking is one reason Unix remains so compelling.  It does
+not begin by hiding the computer from the user.  It begins by offering
+a few understandable tools and trusting the user to grow into them.
+Many later systems borrowed the look of Unix.  Fewer kept its original
+confidence that simplicity, composition, and readable text were enough
+to do serious work.
+
+The system seen here is not a modern Unix clone with extensive layers
+of software.  It is much closer to the smaller, more direct style of
+historical Unix work.
+
+That simplicity is part of its educational value.  A shell prompt on a
+system like this invites questions.  Why are files so central?  Why do
+programs read from standard input and write to standard output?  Why do
+small command names still feel natural after half a century?
+
+Those questions lead back to Bell Labs, but they also lead forward.
+Modern software engineering still rewards the same instincts: keep
+interfaces narrow, prefer plain formats when possible, and make tools
+that can work together rather than alone.
