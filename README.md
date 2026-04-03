@@ -13,6 +13,8 @@ It is intended for:
 Repository:
 [github.com/fergusleen/pidpdemo](https://github.com/fergusleen/pidpdemo)
 
+Video: https://www.youtube.com/watch?v=FBJSq19VJRU
+
 ## Goals
 
 The project aims to provide a restrained front end for a live historical
